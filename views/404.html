@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add Product</title>
-    <style>
+    <title>Page Not Found</title>
+     <style>
       body {
         margin: 0;
         padding: 0;
         font-family: sans-serif;
       }
-      main {
+      main{
         margin: 1rem;
       }
       .main-header {
@@ -43,37 +43,6 @@
       .main-header__item a.active {
         color: #6200ff;
       }
-      .product-form{
-        width: 20rem;
-        max-width: 90%;
-        margin: auto;
-      }
-      .form-control{
-        margin: 1rem 0;
-      }
-      .form-control label,
-      .form-control input {
-        display: block;
-        width: 100%;
-      }
-      .form-control input {
-        border: 1px solid #dbc441;
-        font: inherit;
-        border-radius: 4px;
-      }
-      button {
-        font: inherit;
-        border: 1px solid #6200ff;
-        color: #6200ff;
-        background: white;
-        border-radius: 3px;
-        cursor: pointer;
-      }
-      button:hover,
-      button:focus{
-        background-color: #6200ff;
-        color: white;
-      }
     </style>
   </head>
   <body>
@@ -84,19 +53,13 @@
             <a href="/">Shop</a>
           </li>
           <li class="main-header__item">
-            <a class="active" href="/admin/add-product">Add Product</a>
+            <a href="/admin/add-product">Add Product</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <form class="product-form" action="/admin/add-product" method="POST">
-        <div class="form-control">
-          <label for="title">Title</label>
-          <input type="text" name="title" id="title" />
-        </div>
-        <button type="submit">Add Product</button>
-      </form>
+      <h1>Page wasn't found</h1>
     </main>
   </body>
 </html>
